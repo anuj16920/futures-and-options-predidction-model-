@@ -1,0 +1,53 @@
+# Data files
+data/*.csv
+data/*.parquet
+data/set/
+
+# Model files (too large for GitHub)
+saved_models/*.keras
+saved_models/*.h5
+saved_models/*.pb
+saved_models/nifty_kaggle_savedmodel/
+
+# Scaler files
+scalers/*.joblib
+scalers/*.pkl
+
+# Logs
+logs/*.log
+logs/plots/*.png
+logs/tensorboard/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Test files
+test_gpu.py
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
