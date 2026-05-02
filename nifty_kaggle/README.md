@@ -10,7 +10,7 @@ Deep learning model for predicting NIFTY 50 index movements using 1-minute candl
 - **Output:** 3-class prediction (Bullish, Bearish, Neutral)
 
 ### Architecture Flow:
-```
+
 Input (60, 46) 
   → Positional Encoding
   → CNN Block (local pattern extraction)
